@@ -1,15 +1,149 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="container">
+        <div class="block-heading">
+            <h2>Shopping Cart</h2>
+            <p>
+                The customer is very important, the customer will be followed by the customer.
+                Now, as an urn, I have no right to be in possession of property.
+            </p>
+        </div>
+
+        <div class="row">
+
+            <!-- Products -->
+            <div class="col-lg-8">
+
+                <div class="product">
+                    <div class="row align-items-center">
+
+                        <div class="col-md-3">
+                            <img src="https://via.placeholder.com/150" class="img-fluid">
+                        </div>
+
+                        <div class="col-md-5">
+                            <h5>I am very sorry</h5>
+                            <div>Display: 5 inches</div>
+                            <div>RAM: 4GB</div>
+                            <div>Memory: 32GB</div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <label>Quantity:</label>
+                            <input type="text" class="form-control" value="1">
+                        </div>
+
+                        <div class="col-md-2 text-end">
+                            <h5>$120</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="row align-items-center">
+
+                        <div class="col-md-3">
+                            <img src="https://via.placeholder.com/150" class="img-fluid">
+                        </div>
+
+                        <div class="col-md-5">
+                            <h5>I am very sorry</h5>
+                            <div>Display: 5 inches</div>
+                            <div>RAM: 4GB</div>
+                            <div>Memory: 32GB</div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <label>Quantity:</label>
+                            <input type="text" class="form-control" value="1">
+                        </div>
+
+                        <div class="col-md-2 text-end">
+                            <h5>$120</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="row align-items-center">
+
+                        <div class="col-md-3">
+                            <img src="https://via.placeholder.com/150" class="img-fluid">
+                        </div>
+
+                        <div class="col-md-5">
+                            <h5>I am very sorry</h5>
+                            <div>Display: 5 inches</div>
+                            <div>RAM: 4GB</div>
+                            <div>Memory: 32GB</div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <label>Quantity:</label>
+                            <input type="text" class="form-control" value="1">
+                        </div>
+
+                        <div class="col-md-2 text-end">
+                            <h5>$120</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Summary -->
+            <div class="col-lg-4">
+
+                <div class="summary">
+                    <h3>Summary</h3>
+
+                    <div class="summary-item d-flex justify-content-between">
+                        <span>Subtotal</span>
+                        <span>$360</span>
+                    </div>
+
+                    <div class="summary-item d-flex justify-content-between">
+                        <span>Discount</span>
+                        <span>$0</span>
+                    </div>
+
+                    <div class="summary-item d-flex justify-content-between">
+                        <span>Shipping</span>
+                        <span>$0</span>
+                    </div>
+
+                    <div class="summary-item d-flex justify-content-between total">
+                        <strong>Total</strong>
+                        <strong>$360</strong>
+                    </div>
+
+                    <button class="btn btn-primary w-100">
+                        Checkout
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 
